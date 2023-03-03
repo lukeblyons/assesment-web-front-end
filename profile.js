@@ -13,3 +13,16 @@ ritualButton.addEventListener("click", () => {
   alert("My favorite ritual playing Nintendo Switch with my wife!");
 });
 
+const img = document.getElementById("profile-image");
+
+img.addEventListener("mouseover", () => {
+  alert("This is a picture of me!");
+});
+
+function handleSubmit(evt) {
+	evt.preventDefault();
+	alert('Form submitted successfully!');
+}
+
+let form = document.querySelector('#stay-in-contact');
+form.addEventListener('submit', handleSubmit);

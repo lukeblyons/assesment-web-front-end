@@ -37,6 +37,11 @@ img {
 	max-width: 300px;
 }
 
+img.profile-image {
+	width: 150px;
+	height: auto;
+}
+
 .button-container {
 	display: flex;
 	justify-content: space-around;
