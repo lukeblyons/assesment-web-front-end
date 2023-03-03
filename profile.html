@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ol>
+			<li class="crumb"><a href="./home.html">Home</a></li>
+			<li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+		</ol>
+	</nav>
+	<content>
+		<h1>My Profile</h1>
+		<img src="https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_960_720.png" alt="My Profile Picture">
+		
+        <h2>Skills</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>Java (soon)</li>
+			<li>SQL (soon)</li>
+			<li>Cybersecurity (soon)</li>
+		</ul>
+        
+        <h2>Career Goals</h2>
+		<p>I have recently Graduated from Brigham Young University with a degree in Business Management and a double minor in Economics and Entrepreneurship. I am currently in the Devmountain Java Software Engineering bootcamp and will then do the Cybersecurity bootcamp right after. My goal is to become a Cybersecurity consultant and then eventually start my own consultancy firm.</p>
+        
+        <h2>Interests</h2>
+		<p>Oustside of coding and business, I enjoy spending time with my wife, outdoor activities and gaming.</p>
+        
+        <button id="color" class="favorite-button">My Favorite Color</button>
+        <button id="place" class="favorite-button">My Favorite Place</button>
+        <button id="ritual" class="favorite-button">My Favorite Ritual</button>
+
+        
+        <h2>Want to stay in contact?</h2>
+        <form id="stay-in-contact">
+            <label for="message">Can I reach out?:</label><br>
+            <label for="message-yes">Yes</label>
+            <input type="radio" id="message-yes" name="message" value="yes">
+            <label for="message-no">No</label><br>
+            <input type="radio" id="message-no" name="message" value="no">
+           
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+        
+            <input type="submit" value="Submit">
+        </form>
+
+	</content>
+
+    <script src="profile.js"></script>
+
+</body>
+</html>
